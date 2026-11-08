@@ -258,8 +258,7 @@
 
 <PageTitle title="Money Transfer App" url={$page.url.href} />
 <section class="flex flex-col gap-8 items-center">
-	<Loading title="" on:click={navigateToRoot} />
-	<h2 class="text-2xl flex items-center gap-1">Transfer Money</h2>
+	<h2 class="text-2xl flex items-center gap-1" on:click={navigateToRoot}>Transfer Money</h2>
 	{#if !transferSubmitted}
 		<div class="sm:w-1/2 w-full border border-gray-200 p-4 rounded-md">
 			<label

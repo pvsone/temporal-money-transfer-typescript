@@ -36,7 +36,8 @@ Run workers
   - `npm run worker`
 
 Run API and Web UI (localhost:3000)
-- `nodemon /server/index.ts` (from the project root directory)
+  - `cd server`
+  - `npm run start`
 
 ## Demo various failures and recoveries
 
